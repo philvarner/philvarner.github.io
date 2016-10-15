@@ -238,9 +238,9 @@ Process
 
 ```java
 Set<String> genres = 
-	Stream.of("Jazz", "Blues", "Rock") // create
-		.map(String::toLowerCase) // transform
-		.collect(Collectors.toSet()); //collect
+	Stream.of("Jazz", "Blues", "Rock") 
+		.map(String::toLowerCase)
+		.collect(Collectors.toSet());
 ```
 
 ### Create
