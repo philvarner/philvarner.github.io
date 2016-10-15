@@ -1,5 +1,7 @@
-The Advanced Beginner's Guide to SQL
-====================================
+---
+layout: default
+title: The Advanced Beginner's Guide to SQL
+---
 
 JOIN
 ----
