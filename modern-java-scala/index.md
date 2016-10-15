@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Modern Java and Scala Cheat Sheet
+title: Modern Java Cheat Sheet
 ---
 
-# Modern Java and Scala Cheat Sheet
+# Modern Java Cheat Sheet
 
 * Resources
 * Optional
@@ -17,11 +17,11 @@ title: Modern Java and Scala Cheat Sheet
 * [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.manning.com/books/java-8-in-action) by Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft 
 * http://horstmann.com/heig-vd/spring2015/poo/
 
-## Optional
+## Java 8 Optional
 
 Optional is a functional replacement for null. Javadoc: [https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html](java.util.Optional<T>)
 
-Method Summary
+Java Optional Method Summary
 
 | Method | Description |
 | ---------------- | ----------- |
