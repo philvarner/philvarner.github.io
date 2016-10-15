@@ -612,7 +612,7 @@ max()
 
 Definition:
 ```java
- <T> T[] toArray(IntFunction<T[]> constructor) {
+ T T[] toArray(IntFunction<T[]> constructor) {
 	int n = ...; // length of array
 	T[] result = constructor.apply(n);
 	// ... populate result array here
