@@ -1,5 +1,9 @@
+---
+layout: default
+title: Modern Java and Scala Cheat Sheet
+---
 
-# Java 8 Cheat Sheet
+# Modern Java and Scala Cheat Sheet
 
 * Resources
 * Optional
