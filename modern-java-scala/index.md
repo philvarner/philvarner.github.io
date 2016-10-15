@@ -239,9 +239,9 @@ Process
 
 ```java
 Set<String> genres = 
-	Stream.of("Jazz", "Blues", "Rock") // create
-		.map(String::toLowerCase) // transform
-		.collect(Collectors.toSet()); //collect
+	Stream.of("Jazz", "Blues", "Rock") 
+		.map(String::toLowerCase)
+		.collect(Collectors.toSet());
 ```
 
 ### Create
@@ -300,16 +300,7 @@ signature: <R> Stream<R> map(Function<? super T, ? extends R>)
 
 Apply a Function to each element
 
-```java
-// Apply "toLowerCase" for each element
-List<String> list = Arrays.asList(new String[]{"A", "B", "C"});
-res = list.stream().map(w -> w.toLowerCase());
-list.stream().map(String::toLowerCase);
-// stream of ["a", "b", "c"]
-
-Stream.of(1,2,3,4,5).map(x -> x + 1);
-// stream of [2, 3, 4, 5, 6]
-```
+TBD
 
 **limit** `limit(maxSize)`
 The first _n_ elements
