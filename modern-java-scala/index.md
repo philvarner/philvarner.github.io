@@ -188,6 +188,7 @@ Examples of static methods commonly used:
 * StringUtils::isBlank (though s -> isBlank(s) with a static import is often more concise)
 
 ### Generified Functional Interfaces
+
 | Class | Description | Single method | Additional methods |
 | --- | ---------------- | ----------- | ---- | 
 | Function<T,R> | a function that accepts one argument and produces a result | R apply(T t) | andThen(Function), compose(Function), static identity() |
@@ -295,7 +296,7 @@ Stream<T> filter(Predicate<? super T>)
 Remove elements not matching the Predicate.
 
 **map** 
-<R> Stream<R> map(Function<? super T, ? extends R>)
+signature: <R> Stream<R> map(Function<? super T, ? extends R>)
 
 Apply a Function to each element
 
@@ -465,7 +466,7 @@ String r2 = Stream.of("a", "b", "c").reduce("", (acc, e) -> acc + "|" + e.toUppe
 //> A|B|C
 
 // fused map / reduce (tbd)
-<U> U reduce(U identity,
+ <U> U reduce(U identity,
              BiFunction<U,? super T,U> accumulator,
              BinaryOperator<U> combiner)
 
