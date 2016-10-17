@@ -24,6 +24,14 @@ predicate of form s => s == "x"
 | Filter Not | n/a | list.filterNot(...) | 
 | Reverse | ? | list.reverse | 
 | Sort | ? | list.sort(comparison f) | 
-| Distinct | .distinct() | ? |
+| Distinct | .distinct() | list.distinct() |
 | Indexed access | N/A | list(index) |
 | Filter Count  | .filter(predicate).count() | list.count() |
+| Flat Map | | flatMap() |
+| Flatten |  | flatten |
+| Group By | | groupBy[K](f: (A) ⇒ K): Map[K, List[A]] |
+| Max | | max |
+| Max By | | maxBy
+| Min  | | min
+| Min By | | minBy
+| Sum | | sum |
