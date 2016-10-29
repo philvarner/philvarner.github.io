@@ -1,8 +1,8 @@
 # Scala Cheatsheet
 
-val - immutable
-var - 
-def - methods
+* val - immutable
+* var - mutable
+* def - methods
 
 val and var can be used to define anonymous functions
 
