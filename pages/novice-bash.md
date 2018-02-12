@@ -49,12 +49,15 @@ function prt
 ```
 
 ```
-if [ -z $(aws s3 ls ${HUED_URI}) ]; then
+if [ -z "$(aws s3 ls ${HUED_URI})" ]; then
     exit 1
 fi
 ```
 
-
+last exit code
+```
+$?
+```
 
 * https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
 * https://www.topbug.net/blog/2017/07/31/inputrc-for-humans/
